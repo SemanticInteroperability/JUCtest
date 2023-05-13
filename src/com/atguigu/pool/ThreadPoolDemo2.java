@@ -7,7 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 public class ThreadPoolDemo2 {
     public static void main(String[] args) {
-        //自定义线程池，7个参数
+
+        //自定义线程池，7个参数,test
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(
                 2,
                 5,
