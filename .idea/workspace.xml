@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53829d51-f64f-433a-90df-4db96faab3a9" name="默认更改列表" comment="test">
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/callable/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/callable/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/lock/LsaleTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/lock/LsaleTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/lock/ThreadDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/lock/ThreadDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/lock/TreadDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/lock/TreadDemo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pool/ThreadPoolDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/pool/ThreadPoolDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/pool/ThreadPoolDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/pool/ThreadPoolDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/readwrite/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/readwrite/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sync/SaleTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/sync/SaleTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/sync/ThreadDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/sync/ThreadDemo01.java" afterDir="false" />
-    </list>
+    <list default="true" id="53829d51-f64f-433a-90df-4db96faab3a9" name="默认更改列表" comment="手写线程池" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +37,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/SemanticInteroperability/JUC.git" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -199,7 +196,7 @@
       <workItem from="1691293751397" duration="3305000" />
       <workItem from="1691297284315" duration="1124000" />
       <workItem from="1691298438677" duration="374000" />
-      <workItem from="1691298834504" duration="7899000" />
+      <workItem from="1691298834504" duration="8257000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1683964193154</created>
@@ -208,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683964193154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="手写线程池">
+      <created>1691320449836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691320449836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="手写线程池">
+      <created>1691320533240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691320533240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +239,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="手写线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="手写线程池" />
   </component>
   <component name="WindowStateProjectService">
     <state x="219" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1691310267489">
