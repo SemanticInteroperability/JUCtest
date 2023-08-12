@@ -24,3 +24,4 @@ com\atguigu\callable\Demo01.class
 com\atguigu\lock\LsaleTicket.class
 com\atguigu\lock\TreadDemo03.class
 com\atguigu\sync\SaleTicket$2.class
+com\atguigu\pool\TestException.class

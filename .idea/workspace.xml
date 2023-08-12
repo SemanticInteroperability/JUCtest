@@ -27,8 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="53829d51-f64f-433a-90df-4db96faab3a9" name="默认更改列表" comment="线程池的api测试invokeAll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/pool/TestSubmit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/pool/TestSubmit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,13 +102,13 @@
     <property name="project.structure.side.proportion" value="0.291954" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TestSubmit">
-    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.readwrite.ReadWriteLockDemo" />
+  <component name="RunManager" selected="Application.TestException">
+    <configuration name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.pool.TestException" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.readwrite.*" />
+          <option name="PATTERN" value="com.atguigu.pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReadWriteLockDemo" />
       <item itemvalue="Application.TestPool" />
       <item itemvalue="Application.ThreadPoolDemo1" />
       <item itemvalue="Application.ThreadPoolDemo2" />
       <item itemvalue="Application.TestSubmit" />
+      <item itemvalue="Application.TestException" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestException" />
         <item itemvalue="Application.TestSubmit" />
         <item itemvalue="Application.TestPool" />
         <item itemvalue="Application.ThreadPoolDemo2" />
         <item itemvalue="Application.ThreadPoolDemo1" />
-        <item itemvalue="Application.ReadWriteLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +212,7 @@
       <workItem from="1691297284315" duration="1124000" />
       <workItem from="1691298438677" duration="374000" />
       <workItem from="1691298834504" duration="9724000" />
-      <workItem from="1691811043106" duration="6699000" />
+      <workItem from="1691811043106" duration="9603000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1683964193154</created>
@@ -258,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691815186749</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="线程池的api测试invokeAll">
+      <created>1691818790265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691818790265</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,10 +375,10 @@
     </state>
     <state x="6" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1691816747337" />
     <state x="2063" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1683962985972" />
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1691816076364">
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2" timestamp="1691826473815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1691816076364" />
+    <state x="261" y="81" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1691826473815" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1683963723975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
