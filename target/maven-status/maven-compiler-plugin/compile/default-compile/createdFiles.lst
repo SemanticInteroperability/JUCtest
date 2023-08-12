@@ -20,6 +20,7 @@ com\atguigu\lock\ShareResource.class
 com\atguigu\pool\BlockingQueue.class
 com\atguigu\pool\ThreadPool$Worker.class
 com\atguigu\lock\LTicket.class
+com\atguigu\pool\TestSchedule.class
 com\atguigu\callable\Demo01.class
 com\atguigu\lock\LsaleTicket.class
 com\atguigu\lock\TreadDemo03.class
