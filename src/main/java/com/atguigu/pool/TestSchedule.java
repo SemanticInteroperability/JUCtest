@@ -25,7 +25,7 @@ public class TestSchedule {
         System.out.println(time);
 
         long initDelay = Duration.between(now, time).toMillis();
-        long period = 1000*60*60*24*7;
+        long period = 1000;
         ScheduledExecutorService pool = Executors.newScheduledThreadPool(1);
         pool.scheduleAtFixedRate(()->{
             System.out.println("running..");
