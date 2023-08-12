@@ -8,6 +8,7 @@ com\atguigu\lock\ThreadDemo02.class
 com\atguigu\sync\SaleTicket$3.class
 com\atguigu\callable\MyThread2.class
 com\atguigu\sync\ThreadDemo01.class
+com\atguigu\pool\TestSubmit.class
 com\atguigu\sync\SaleTicket$1.class
 com\atguigu\readwrite\ReadWriteLockDemo.class
 com\atguigu\sync\Ticket.class

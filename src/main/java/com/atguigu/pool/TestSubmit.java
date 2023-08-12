@@ -31,6 +31,11 @@ public class TestSubmit {
                     log.debug("begin");
                     Thread.sleep(2000);
                     return "3";
+                },
+                () -> {
+                    log.debug("begin");
+                    Thread.sleep(2500);
+                    return "4";
                 }
         ));
         futures.forEach(f->{
